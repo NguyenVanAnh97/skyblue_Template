@@ -1,0 +1,16 @@
+/*-- main css --*/
+
+
+@import './reset.css';
+@import './variables.css';
+@import './buttons.css';
+@import './typography.css';
+@import './menu.css';
+@import './global.css';
+@import './header.css';
+@import './main_page.css';
+@import './footer.css';
+
+
+
+

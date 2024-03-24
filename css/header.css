@@ -1,0 +1,267 @@
+
+.re_down_top {
+    font-size: 8px;
+    vertical-align: 2px;
+    margin-left: 2px;
+    color: var(--color-icon);
+}
+
+.re_down_form {
+    font-size: 10px;
+    vertical-align: middle;
+    margin-left: 26px;
+    color: var(--color-icon);
+}
+
+.re_down_menu {
+    font-size: 10px;
+    vertical-align: middle;
+    margin-left: 5px;
+    color: var(--color-icon);
+}
+
+.flex_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    line-height: calc(16.25 / 13);
+    font-weight: 500;
+    padding: 14px 0 12px 0;
+}
+
+.top-header {
+    padding-bottom: 30px;
+}
+
+.ads_text {
+    font-weight: 400;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+    margin-left: 20px;
+    position: relative;
+    padding-left: 20px;
+}
+.tools::before {
+    position: absolute;
+    content: '';
+    background: var(--color-des);
+    width: 1px;
+    height: 14px;
+    left: 0;
+    top: 2px;
+
+}
+
+.menu_link_top {
+    text-decoration: none;
+}
+
+.inner-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid var(--color-des);
+    border-radius: 5px;
+    width: 788px;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.input-field {
+    height: 41px;
+}
+
+.first-wrap {
+    width: 190px;
+    position: relative;
+}
+
+.first-wrap::after {
+    position: absolute;
+    content: '';
+    background: var(--color-des);
+    width: 1px;
+    height: 15px;
+    right: 0;
+    top: 34%;
+}
+
+.second-wrap {
+    height: 100%;
+    width: 490px;
+    padding: 11px 22px 12px 23px;
+}
+
+.input-select {
+    padding: 11px 24px 12px;
+}
+
+.third-wrap {
+    width: 110px;
+}
+
+input#search {
+    border: none;
+    outline: none;
+    
+}
+
+input#search::placeholder {
+    color: var(--color-input); /* Màu của placeholder */
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 13px;
+    line-height: calc(16.5/13);
+}
+
+.login_user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex_center_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.login_cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.number_count {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: calc(12.5/10);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--color-red);
+    color: var(--color-white);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favorite_number {
+    position: relative;
+}
+
+.d-pos {
+    position: absolute;
+    right: -9px;
+    top: -4px;
+}
+
+.cart_number {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.cart_icon {
+    position: relative;
+}
+
+.c-pos {
+    position: absolute;
+    right: -9px;
+    top: -4px;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    min-width: 251px;
+    position: relative;
+}
+
+.categories::after {
+    position: absolute;
+    content: '';
+    background: var(--color-des);
+    width: 1px;
+    height: 15px;
+    right: 0;
+    top: 34%;
+}
+
+
+
+.flex_bottom_menu {
+    padding: 15px 0 15px 19px;
+}
+
+.my_sale > p {
+    line-height: calc(16/14);
+}
+
+.my_sale {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.flex_bottom_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 576px) {
+    .flex_header {
+        display: none;
+    }
+    .flex_center_menu {
+        flex-direction: column;
+        padding: 20px;
+        gap: 10px;
+        
+    }
+
+    .inner-form {
+        max-width: 370px;
+        margin-left: 0;
+    }
+
+    .flex_bottom_menu {
+        padding: 20px;
+    }
+
+    .first-wrap {
+        max-width: 100px;
+        text-align: center;
+    }
+
+    .choises {
+        font-size: 10px;
+    }
+
+    .second-wrap {
+        width: 200px;
+    }
+    .input-select {
+        padding: 16px 10px 12px;
+    } 
+
+    .re_down_form {
+        margin-left: 0;
+    }
+    .top-header {
+        padding-bottom: 15px;
+    }
+
+  
+  }

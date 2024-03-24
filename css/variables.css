@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+:root {
+    --color-text: #212529;
+    --color-buttom: #2b38d1;
+    --color-red: #dc323c;
+    --color-green: #008000;
+    --color-blue: #2b38d1;
+    --color-des: #e5e8ec;
+    --color-white: #fff;
+    --color-icon: #515d66;
+    --color-input: #8d979e;
+    --color-bg: #f1f5f6;
+    --color-yellow: #fde50b;
+    --color-stock : #008a00;
+    --color-remain: #ef262c;
+}
+
+.flex_center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

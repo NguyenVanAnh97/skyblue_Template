@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLUESKY_TEST</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/87e248c7a0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./scripts/splide-skyblue.min.css" />
+    <link rel="stylesheet" href="./scripts/splide-core.min.css" />
+    <link rel="stylesheet" href="./scripts/splide.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js
+    "></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide(".splide", {
+          type: "loop",
+          drag: "free",
+          focus: "center",
+          autoScroll: false,
+        }).mount(window.splide.Extensions);
+      });
+    </script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-header">
+        <div class="container">
+          <div class="flex_header">
+            <p class="ads_text">
+              You are a student and students get 20% discount.
+              <a href="#" class="text_links">Learn More</a>
+            </p>
+            <ul class="menu_top">
+              <li class="link_menu_top">
+                <a href="#" class="menu_link_top">Store Locator</a>
+              </li>
+              <li class="link_menu_top">
+                <a href="#" class="menu_link_top">Order Tracking</a>
+              </li>
+              <li class="link_menu_top">
+                <a href="#" class="menu_link_top">FAQs</a>
+              </li>
+            </ul>
+            <div class="tools">
+              <p class="text_chose">
+                English <i class="fa-solid fa-chevron-down re_down_top"></i>
+              </p>
+              <p>USD <i class="fa-solid fa-chevron-down re_down_top"></i></p>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="center_menu">
+          <div class="container">
+            <div class="flex_center_menu">
+              <img src="./images/Logo.svg" alt="logo" class="logo_header" />
+
+              <div class="inner-form">
+                <div class="input-field first-wrap">
+                  <div class="input-select">
+                    <div class="choises">
+                      <p class="weight_600">
+                        All Categories
+                        <i class="fa-solid fa-chevron-down re_down_form"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-filed second-wrap">
+                  <input
+                    id="search"
+                    type="text"
+                    placeholder="Search in 200+ products..."
+                  />
+                </div>
+                <div class="input-filed third-wrap">
+                  <div class="button btn-search">Search</div>
+                </div>
+              </div>
+
+              <div class="login_cart">
+                <div class="login_user">
+                  <img src="./images/icon.png" alt="icon" width="23" />
+
+                  <div class="info_login">
+                    <p class="text_small">Login</p>
+                    <p class="weight_600">Account</p>
+                  </div>
+                </div>
+
+                <div class="favorite_number">
+                  <img
+                    src="./images/icon (1).png"
+                    alt="favorite-number"
+                    width="28"
+                  />
+                  <p class="number_count d-pos">2</p>
+                </div>
+                <div class="cart_number">
+                  <div class="cart_icon">
+                    <img
+                      src="./images/icon (2).png"
+                      alt="favorite-number"
+                      width="27"
+                    />
+                    <p class="number_count c-pos">2</p>
+                  </div>
+                  <div class="info_cart">
+                    <p class="text_small">Your Cart</p>
+                    <p class="weight_600">$280.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="bottom_header">
+          <div class="container">
+            <div class="flex_bottom_menu">
+              <div class="categories">
+                <div class="menu-toggle">
+                  <span></span><span></span><span></span>
+                </div>
+                <p class="weight_600">Browse All Categories</p>
+              </div>
+              <ul class="menu">
+                <li class="link-menus category_link">
+                  <div class="main_menu flex_center">
+                    <p class="text-medium">Computer & Desktop</p>
+                  </div>
+
+                  <div class="main_menu flex_center">
+                    <p class="text-medium">Laptop & Ipad</p>
+                  </div>
+
+                  <div class="main_menu flex_center">
+                    <p class="text-medium">Cameras & Photos</p>
+                  </div>
+
+                  <div class="main_menu flex_center">
+                    <p class="text-medium">Smart Phones & Tablets</p>
+                  </div>
+
+                  <div class="main_menu">
+                    <p class="text-medium">Home & Kitchen</p>
+                  </div>
+
+                  <div class="main_menu flex_center">
+                    <p class="text-medium">TV & Audios</p>
+                  </div>
+
+                  <div class="main_menu">
+                    <p class="text-medium">Health & Beauty</p>
+                  </div>
+
+                  <div class="main_menu flex_center">
+                    <p class="text-medium">Watches & Eyewear</p>
+                  </div>
+
+                  <div class="main_menu">
+                    <p class="text-medium">Top Deals</p>
+                  </div>
+
+                  <div class="main_menu">
+                    <p class="text-medium">Top Selling Products</p>
+                  </div>
+
+                  <div class="main_menu">
+                    <p class="text-medium">Top Featured Products</p>
+                  </div>
+                </li>
+
+                <div class="menu-toggle-category">
+                  <span></span><span></span><span></span>
+                </div>
+                <li class="link-menu">
+                  <a href="" class="weight_600 no-underline">Home</a>
+                  <i
+                    class="fa-solid fa-chevron-down re_down_menu"
+                    aria-hidden="true"
+                  ></i>
+                </li>
+                <li class="link-menu">
+                  <a href="" class="weight_600 no-underline">Shop</a>
+                  <i
+                    class="fa-solid fa-chevron-down re_down_menu"
+                    aria-hidden="true"
+                  ></i>
+                </li>
+                <li class="link-menu">
+                  <a href="" class="weight_600 no-underline">Product</a>
+                  <i
+                    class="fa-solid fa-chevron-down re_down_menu"
+                    aria-hidden="true"
+                  ></i>
+                </li>
+                <li class="link-menu">
+                  <a href="" class="weight_600 no-underline">Page</a>
+                  <i
+                    class="fa-solid fa-chevron-down re_down_menu"
+                    aria-hidden="true"
+                  ></i>
+                </li>
+                <li class="link-menu">
+                  <a href="" class="weight_600 no-underline">Blog</a>
+                  <i
+                    class="fa-solid fa-chevron-down re_down_menu"
+                    aria-hidden="true"
+                  ></i>
+                </li>
+                <li class="link-menu">
+                  <a href="" class="weight_600 no-underline">Contact Us</a>
+                </li>
+                <li class="link-menu">
+                  <a href="" class="weight_600 no-underline text_buy"
+                    >Buy Uminex!</a
+                  >
+                </li>
+              </ul>
+
+              <div class="my_sale">
+                <img src="./images/icon (3).png" alt="sale_icon" />
+
+                <p class="weight_600">Sale $20 Off Your First Order.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="line"></div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main_top">
+        <div class="container">
+          <div class="flex_main_top flex_center">
+            <div class="block_menu">
+              <div class="main_menu flex_center">
+                <p class="text-medium">Computer & Desktop</p>
+
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+
+              <div class="main_menu flex_center">
+                <p class="text-medium">Laptop & Ipad</p>
+
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+
+              <div class="main_menu flex_center">
+                <p class="text-medium">Cameras & Photos</p>
+
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+
+              <div class="main_menu flex_center">
+                <p class="text-medium">Smart Phones & Tablets</p>
+
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+
+              <div class="main_menu">
+                <p class="text-medium">Home & Kitchen</p>
+              </div>
+
+              <div class="main_menu flex_center">
+                <p class="text-medium">TV & Audios</p>
+
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+
+              <div class="main_menu">
+                <p class="text-medium">Health & Beauty</p>
+              </div>
+
+              <div class="main_menu flex_center">
+                <p class="text-medium">Watches & Eyewear</p>
+
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+
+              <div class="main_menu">
+                <p class="text-medium">Top Deals</p>
+              </div>
+
+              <div class="main_menu">
+                <p class="text-medium">Top Selling Products</p>
+              </div>
+
+              <div class="main_menu">
+                <p class="text-medium">Top Featured Products</p>
+              </div>
+            </div>
+            <div class="main_carousel">
+              <div
+                class="splide vace"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div class="va1">
+                        <img src="./images/bg.png" alt="img3" />
+
+                        <div class="text-slide">
+                          <p class="heading-small">Gamepad console</p>
+
+                          <p class="heading_big">
+                            Today’s Offer<br />
+                            Skin <span>Gamepad</span> 2022
+                          </p>
+
+                          <button class="button_shop">Shop Now</button>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="va1">
+                        <img src="./images/bg.png" alt="img2" />
+
+                        <div class="text-slide">
+                          <p class="heading-small">Gamepad console</p>
+
+                          <p class="heading_big">
+                            Today’s Offer<br />
+                            Skin <span>Gamepad</span> 2022
+                          </p>
+
+                          <button class="button_shop">Shop Now</button>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="splide__slide">
+                      <div class="va1">
+                        <img src="./images/bg.png" alt="img1" />
+
+                        <div class="text-slide">
+                          <p class="heading-small">Gamepad console</p>
+
+                          <p class="heading_big">
+                            Today’s Offer<br />
+                            Skin <span>Gamepad</span> 2022
+                          </p>
+
+                          <button class="button_shop">Shop Now</button>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="gallery_background">
+                <div class="gallery_place">
+                  <img src="./images/1.png" alt="gl1" />
+
+                  <div class="info_gallery">
+                    <h1 class="heading_hero">
+                      Trending<br />
+                      New Phone Pro
+                    </h1>
+                    <p class="text-medium">Save 20% On Products</p>
+                  </div>
+                </div>
+                <div class="gallery_place">
+                  <img src="./images/2.png" alt="gl2" />
+
+                  <div class="info_gallery">
+                    <h1 class="heading_hero">
+                      Top Product<br />
+                      MateBook Pro 2022
+                    </h1>
+                    <p class="text-medium">Top Quality Products</p>
+                  </div>
+                </div>
+                <div class="gallery_place">
+                  <img src="./images/3.png" alt="gl3" />
+
+                  <div class="info_gallery">
+                    <h1 class="heading_hero">
+                      iPad Pro<br />
+                      Up To 20% Off
+                    </h1>
+                    <p class="text-medium">20 Days Return Products</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_bottom">
+        <div class="container">
+          <div class="list_grid_icon">
+            <div class="product_lits">
+              <div class="top_product">
+                <img src="./images/img.png" alt="apple_iphone" />
+
+                <div class="sale_lable weight_600">
+                  <p>-20%</p>
+                </div>
+              </div>
+
+              <p class="weight_600">Apple iPhone 12 Pro Max 128GB - Unlocked</p>
+
+              <div class="info_product">
+                <img src="./images/start_rate.png" alt="rate" />
+
+                <p class="text_rate">(68)</p>
+              </div>
+              <div class="info_price">
+                <p class="text_price">$128.00</p>
+                <p class="text_sale">$12.00</p>
+              </div>
+
+              <p class="text_store">
+                <i class="fa-solid fa-check check-text"></i>
+                <span>In stock</span> <strong>82</strong> products
+              </p>
+            </div>
+
+            <div class="product_lits">
+              <div class="top_product">
+                <img src="./images/img (1).png" alt="apple_macbook" />
+              </div>
+
+              <p class="weight_600">Apple Watch Aluminum Case Pride Edition</p>
+
+              <div class="info_product">
+                <img src="./images/start_rate.png" alt="rate" />
+
+                <p class="text_rate">(68)</p>
+              </div>
+              <div class="info_price">
+                <p class="text_price over_color_price">$1028.00</p>
+              </div>
+
+              <p class="text_store">
+                <i class="fa-solid fa-check check-text"></i>
+                <span>In stock</span> <strong>82</strong> products
+              </p>
+            </div>
+
+            <div class="product_lits offer_item_today">
+              <p class="text_today weight_700">Today’s Offer</p>
+              <div class="line mb_20"></div>
+              <div class="top_product">
+                <img
+                  src="./images/img (3).png"
+                  alt="apple_iphone"
+                  class="img_m"
+                />
+
+                <div class="sale_lable weight_600">
+                  <p>-20%</p>
+                </div>
+
+                <img src="./images/gift.png" alt="gift" class="gift_icon" />
+              </div>
+
+              <p class="weight_600">
+                Apple iPhone 13 Pro Max 128GB Gold Fully Unlocked
+              </p>
+
+              <div class="info_product">
+                <img src="./images/start_rate.png" alt="rate" />
+
+                <p class="text_rate">29 reviews</p>
+              </div>
+              <div class="info_price">
+                <p class="text_price">$128.00</p>
+                <p class="text_sale">$12.00</p>
+              </div>
+
+              <div class="time_sale">
+                <p class="title_time">Hurry up! Offer ends in:</p>
+
+                <div class="countdown" id="countdown">
+                  <div class="item weight_700" id="days">0</div>
+                  <div class="separator weight_600">:</div>
+                  <div class="item weight_700" id="hours">0</div>
+                  <div class="separato weight_600">:</div>
+                  <div class="item weight_700" id="minutes">0</div>
+                  <div class="separator weight_600">:</div>
+                  <div class="item weight_700" id="seconds">0</div>
+                </div>
+              </div>
+
+              <div class="progress-bar">
+                <div class="progress"></div>
+              </div>
+
+              <p class="text-progress">
+                Sold: <span class="weight_600">620/896</span> products
+              </p>
+            </div>
+
+            <div class="product_lits">
+              <div class="top_product">
+                <img src="./images/img (4).png" alt="apple_iphone" />
+              </div>
+
+              <p class="weight_600">Apple iPhone 12 Pro Max 128GB - Unlocked</p>
+
+              <div class="info_product">
+                <img src="./images/start_rate.png" alt="rate" />
+
+                <p class="text_rate">(68)</p>
+              </div>
+              <div class="info_price">
+                <p class="text_price over_color_price">$289.00</p>
+              </div>
+
+              <p class="text_store">
+                <i class="fa-solid fa-check check-text"></i>
+                <span>In stock</span> <strong>82</strong> products
+              </p>
+            </div>
+
+            <div class="product_lits">
+              <div class="top_product">
+                <img src="./images/bg (2).png" alt="apple_iphone" />
+
+                <div class="sale_lable weight_600">
+                  <p>-20%</p>
+                </div>
+              </div>
+
+              <p class="weight_600">Apple Watch Aluminum Case Pride Edition</p>
+
+              <div class="info_product">
+                <img src="./images/start_rate.png" alt="rate" />
+
+                <p class="text_rate">(68)</p>
+              </div>
+              <div class="info_price">
+                <p class="text_price">$128.00</p>
+                <p class="text_sale">$12.00</p>
+              </div>
+
+              <p class="text_store text_remain">
+                <i class="fa-solid fa-check item_remain"></i>
+                Only 2 left in stock
+              </p>
+            </div>
+
+            <div class="product_lits">
+              <div class="top_product">
+                <img src="./images/img (2).png" alt="apple_iphone" />
+              </div>
+
+              <p class="weight_600">Apple iPhone 12 Pro Max 128GB - Unlocked</p>
+
+              <div class="info_product">
+                <img src="./images/start_rate.png" alt="rate" />
+
+                <p class="text_rate">(68)</p>
+              </div>
+              <div class="info_price">
+                <p class="text_price">$128.00</p>
+                <p class="text_sale">$12.00</p>
+              </div>
+
+              <p class="text_store">
+                <i class="fa-solid fa-check check-text"></i>
+                <span>In stock</span> <strong>82</strong> products
+              </p>
+            </div>
+
+            <div class="product_lits">
+              <div class="top_product">
+                <img src="./images/bg (1).png" alt="apple_iphone" />
+
+                <div class="new_lable weight_600">
+                  <p>NEW</p>
+                </div>
+              </div>
+
+              <p class="weight_600">Apple Watch Aluminum Case Pride Edition</p>
+
+              <div class="info_product">
+                <img src="./images/start_rate.png" alt="rate" />
+
+                <p class="text_rate">(68)</p>
+              </div>
+              <div class="info_price">
+                <p class="text_price over_color_price">$1028.00</p>
+              </div>
+
+              <p class="text_store text_remain">
+                <i class="fa-solid fa-check item_remain"></i>
+                Only 2 left in stock
+              </p>
+            </div>
+
+            <div class="product_lits">
+              <div class="top_product">
+                <img src="./images/img (5).png" alt="apple_iphone" />
+
+                <div class="sale_lable weight_600">
+                  <p>-20%</p>
+                </div>
+              </div>
+
+              <p class="weight_600">Apple iPhone 12 Pro Max 128GB - Unlocked</p>
+
+              <div class="info_product">
+                <img src="./images/start_rate.png" alt="rate" />
+
+                <p class="text_rate">(68)</p>
+              </div>
+              <div class="info_price">
+                <p class="text_price">$128.00</p>
+                <p class="text_sale">$12.00</p>
+              </div>
+
+              <p class="text_store">
+                <i class="fa-solid fa-check check-text"></i>
+                <span>In stock</span> <strong>82</strong> products
+              </p>
+            </div>
+
+            <div class="product_lits">
+              <div class="top_product">
+                <img src="./images/bg (3).png" alt="apple_iphone" />
+              </div>
+
+              <p class="weight_600">Apple Watch Aluminum Case Pride Edition</p>
+
+              <div class="info_product">
+                <img src="./images/start_rate.png" alt="rate" />
+
+                <p class="text_rate">(68)</p>
+              </div>
+              <div class="info_price">
+                <p class="text_price over_color_price">$1028.00</p>
+              </div>
+
+              <p class="text_store text_remain">
+                <i class="fa-solid fa-check item_remain"></i>
+                Only 2 left in stock
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer weight_500">
+      <div class="container">
+        <div class="flex_footer">
+          <div class="about_store">
+            <p class="heading_footer weight_700 tex_upcase">About The Store</p>
+
+            <p>Got Question? Call us 24/7</p>
+
+            <p class="phone_number">+222-1800-2628</p>
+
+            <p class="text_footer lh-over">
+              268 St, South New York/NY 98944, United States
+              Customersupport@example.com<br />
+              Info@example.com
+            </p>
+          </div>
+
+          <div class="contact_form">
+            <div class="contact_menu">
+              <p class="heading_footer weight_700 tex_upcase">Infomation</p>
+
+              <ul class="menu_contacts">
+                <li class="menu_contacts_links"><a href="">Blog Us </a></li>
+                <li class="menu_contacts_links">
+                  <a href=""><u class="weight_600">About Us</u></a>
+                </li>
+                <li class="menu_contacts_links">
+                  <a href="">Delivery Information </a>
+                </li>
+                <li class="menu_contacts_links">
+                  <a href="">Privacy Policy </a>
+                </li>
+                <li class="menu_contacts_links"><a href="">FeedBack</a></li>
+              </ul>
+            </div>
+
+            <div class="contact_quick">
+              <p class="heading_footer weight_700 tex_upcase">Quick Links</p>
+
+              <ul class="menu_contacts">
+                <li class="menu_contacts_links">
+                  <a href="">Store Location </a>
+                </li>
+                <li class="menu_contacts_links">
+                  <a href="">Orders Tracking</a>
+                </li>
+                <li class="menu_contacts_links"><a href="">FAQs </a></li>
+              </ul>
+            </div>
+
+            <div class="sign_up_form">
+              <p class="heading_footer weight_700 tex_upcase">
+                Sign up to Newsletter
+              </p>
+
+              <p class="text_footer">
+                Join 20.000+ subscribers and get a new discount coupon on every
+                Saturday. Updates information on Sales and Offers.
+              </p>
+
+              <div class="content">
+                <div class="footer_conter">
+                  <input type="email" placeholder="Your email address..." />
+                  <button class="button button_subscribe tex_upcase weight_700">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+
+              <p>Subscribe for Uminex and get 20% off your first purchase.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="container">
+        <div class="coppy_right">
+          <div class="copy_text">
+            Copyright © <span class="weight_600">Uminex</span> all rights
+            reserved. Powered by <span class="weight_600">Blueskytechco.</span>
+          </div>
+
+          <div class="pay_method">
+            <p>Payment Method:</p>
+
+            <div class="list_method">
+              <div class="car_method">
+                <img src="./images/p1.png" alt="p1" />
+              </div>
+              <div class="car_method">
+                <img src="./images/p2.png" alt="p2" />
+              </div>
+              <div class="car_method">
+                <img src="./images/p3.png" alt="p3" />
+              </div>
+              <div class="car_method">
+                <img src="./images/p4.png" alt="p4" />
+              </div>
+              <div class="car_method">
+                <img src="./images/p5.png" alt="p5" />
+              </div>
+              <div class="car_method">
+                <img src="./images/p6.png" alt="p6" />
+              </div>
+              <div class="car_method">
+                <img src="./images/p7.png" alt="p7" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./scripts/splide.min.js"></script>
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>

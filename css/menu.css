@@ -1,0 +1,147 @@
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+.menu-link {
+    color: inherit;
+    display: inline-block;
+}
+
+.menu_top {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+    margin-left: auto;
+}
+
+.menu-toggle {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 17px;
+    height: 13px;
+    cursor: pointer;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-toggle span {
+    pointer-events: none;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    display: block;
+    border-radius: 5px;
+}
+
+.text_buy {
+    color: var(--color-red);
+}
+
+.menu_contacts_links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu_contacts_links {
+    margin-bottom: 14px;
+}
+
+.category_link {
+    display: none;
+}
+
+.menu-toggle-category {
+    display: none;
+    width: 23px;
+    height: 19px;
+}
+
+.menu-toggle-category span {
+    pointer-events: none;
+    height: 4px;
+    background-color: #000;
+    display: block;
+}
+
+.menu-toggle-category span:nth-child(1) {
+    width: 50%;
+}
+
+.menu-toggle-category span:nth-child(2) {
+    width: 75%;
+}
+
+.menu-toggle-category span:nth-child(3) {
+    width: 50%;
+}
+
+@media screen and (max-width: 576px) {
+    .flex_header {
+        display: none;
+    }
+
+    .menu.is-show {
+        transform: translateX(0);
+    }
+
+    .category_link.is-Show {
+        transform: translateX(0);
+    }
+
+
+    .link-menu {
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .menu-toggle-category {
+        display: inline-flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .menu {
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: white;
+        width: 300px;
+        z-index: 99;
+        border-left: 1px solid #ddd;
+        flex-direction: column;
+        gap: 10px 0;
+        padding-top: 30px;
+        align-items: stretch;
+        transform: translateX(100%);
+        will-change: transform;
+        transition: all 0.2s linear;
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+    .category_link {
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: white;
+        width: 300px;
+        transition: all 0.2s linear;
+        z-index: 999;
+        will-change: transform;
+        transform: translateX(100%);
+    }
+
+}

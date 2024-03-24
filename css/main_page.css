@@ -1,0 +1,289 @@
+.main {
+    padding-bottom: 60px;
+}
+
+.flex_main_top {
+    gap: 20px;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.main {
+    background: var(--color-bg);
+}
+
+.block_menu {
+    min-width: 270px;
+    padding: 29px 20px 28.5px;
+    background: var(--color-white);
+    border-radius: 5px;
+}
+
+.block_menu i {
+    color: var(--color-input);
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+.main_menu {
+    padding-bottom: 12px;
+    position: relative;
+    margin-bottom: 12px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+
+.main_menu:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.main_carousel {
+    width: calc(100% - 290px);
+}
+
+.vace {
+    margin-bottom: 5px;
+}
+
+
+.main_menu:last-child::before {
+    width: 0;
+}
+
+.main_menu::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    background: var(--color-des);
+}
+
+.gallery_background {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0 5px;
+}
+
+.gallery_place {
+    position: relative;
+}
+
+.info_gallery {
+    position: absolute;
+    left: 30px;
+    top: 35px;
+}
+
+.info_gallery>.heading_hero {
+    margin-bottom: 26px;
+
+}
+
+.va1 {
+    position: relative;
+}
+
+.text-slide {
+    position: absolute;
+    top: 66px;
+    left: 161px;
+}
+
+.product_lits {
+    padding: 20px 20px;
+    border-radius: 5px;
+    background: var(--color-white);
+}
+
+.info_price,
+.info_price {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+.top_product {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.top_produc {
+    margin-bottom: 16px
+}
+
+.info_product {
+    margin-bottom: 6px;
+    display: flex;
+    gap: 0 5px;
+    align-items: center;
+    margin-top: 16px
+}
+
+.sale_lable {
+    background: var(--color-red);
+    color: var(--color-white);
+    width: 55px;
+    height: 25px;
+    border-radius: 2px;
+    padding: 5px 11.5px;
+    font-size: 12px;
+    line-height: calc(15/12);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.list_grid_icon {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+}
+
+.offer_item_today {
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 2;
+    border: 2px solid #dc323c
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.new_lable {
+    background: var(--color-green);
+    color: var(--color-white);
+    width: 55px;
+    height: 25px;
+    border-radius: 2px;
+    padding: 5px 11.5px;
+    font-size: 12px;
+    line-height: calc(15/12);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.offer_item_today {
+    padding: 35px 40px;
+}
+
+.gift_icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.time_sale {
+    margin-top: 18px;
+}
+
+.title_time {
+    color: var(--color-icon);
+    margin-bottom: 9px;
+    font-weight: 500;
+}
+
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 7px;
+    max-width: 237px;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.separator {
+    font-size: 20px;
+    line-height: calc(25/20);
+}
+
+.item {
+    background: var(--color-red);
+    color: var(--color-white);
+    padding: 16px 9px;
+    border-radius: 3px;
+    width: 45px;
+    text-align: center;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.progress {
+    width: 90%;
+    height: 100%;
+    background: var(--color-red);
+}
+
+.text-progress {
+    font-size: 12px;
+    line-height: calc(20/12);
+    font-weight: 500;
+    color: var(--color-icon);
+}
+
+
+@media screen and (max-width: 576px) {
+    .main {
+        padding: 20px;
+    }
+
+    .list_grid_icon {
+        grid-template-columns: repeat(auto-fill, minmax(231px, 1fr));
+    }
+
+    .offer_item_today {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .img_max {
+        max-width: 300px;
+    }
+
+    .block_menu {
+        display: none;
+    }
+
+    .main_carousel {
+        width: 100%;
+    }
+
+    .gallery_background {
+        grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    }
+
+    .flex_main_top {
+        margin-bottom: 20px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .text-slide {
+        top: 10%;
+        left: 10%;
+    }
+
+    .img_m {
+        max-width: 290px;
+    }
+
+
+    .top_product {
+    text-align: center;
+    }
+
+}

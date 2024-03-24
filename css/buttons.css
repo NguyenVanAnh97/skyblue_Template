@@ -1,0 +1,52 @@
+.button {
+    font-family: "Bai Jamjuree", sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(17.5 / 14);
+    background-color: transparent;
+    cursor: pointer;
+    background: var(--color-blue);
+    color: var(--color-white);
+}
+
+.button_shop {
+    background: var(--color-white);
+    font-size: 12px;
+    line-height: calc(15/12);
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 15px 40px;
+    width: 151.87px;
+    height: 45px;
+    cursor: pointer;
+
+}
+
+
+.btn-search {
+    height: 100%;
+    width: 100%;
+    padding: 13px 0 14px;
+}
+
+.button_subscribe {
+    padding: 17.5px 35.5px;
+    width: 140px;
+    border: unset;
+    border-radius: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+    .button {
+        font-size: 12px;
+    }
+
+ }
